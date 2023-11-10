@@ -48,7 +48,7 @@ body {
 
 header {
   background-image: url("FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.d083fb5b.jpg");
-  height: 510px;
+  height: 520px;
   position: relative;
 }
 
@@ -136,6 +136,46 @@ header {
 .intro, .intro__mail {
   flex-direction: column;
   display: flex;
+}
+
+.tv {
+  margin-top: 5rem;
+}
+
+.banniere {
+  width: 100%;
+  margin-left: 20rem;
+  padding: 1rem 5rem;
+}
+
+.banniere__img {
+  width: 15%;
+}
+
+.banniere__liens {
+  color: #8383ff;
+}
+
+.banniere, .banniere__logo, section {
+  flex-direction: row;
+  display: flex;
+}
+
+.banniere, .banniere__titre, .banniere__p, .banniere__liens {
+  flex-direction: column;
+  display: flex;
+}
+
+.block {
+  position: relative;
+}
+
+.degrade {
+  background: linear-gradient(#30f, purple);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  position: absolute;
+  bottom: 80px;
 }
 
 /*# sourceMappingURL=index.e378193d.css.map */

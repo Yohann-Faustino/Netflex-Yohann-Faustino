@@ -1,2 +1,45 @@
 @use '../styles/utils/vars'; 
 
+.banniere {
+
+    width: 100%;
+    margin-left: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    &__img{
+        width: 15%;
+    }
+    &__liens{
+        color: rgb(131, 131, 255);
+    }
+
+}
+
+.banniere, .banniere__logo, section {
+    display: flex;
+    flex-direction: row;
+}
+
+.banniere, .banniere__titre, .banniere__p, .banniere__liens{
+    display: flex;
+    flex-direction: column;
+}
+
+.block{
+    position: relative;
+    
+}
+.degrade{
+    background: linear-gradient( to bottom,rgb(51, 0, 255), purple);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: absolute;
+    bottom: 80px;
+
+
+
+
+}
