@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-yohann-faustino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yohann-Faustino/Portfolio-Yohann-Faustino.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yohann-Faustino/Portfolio-Yohann-Faustino/issues"
+  },
+  "homepage": "https://github.com/Yohann-Faustino/Portfolio-Yohann-Faustino#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.2",
+    "parcel": "^2.10.2"
+  },
+  "dependencies": {
+    "feather-icons": "^4.29.1",
+    "reset-css": "^5.0.2"
+  }
+}
