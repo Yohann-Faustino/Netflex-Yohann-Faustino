@@ -9,41 +9,36 @@
 </head>
 <body>
     <header>
-        <nav>
-        <h1>Netflex</h1>
-            <div>
-                <select name="langues">
-                    <option value="francais">Francais</option>
+        <nav class="nav">
+        <h1 class="nav__titre">Netflex</h1>
+            <div class="nav__langue1">
+                <select name="langues" class="nav__choix">
+                    <option value="francais">Français</option>
                     <option value="englais">English</option>
                     <option value="esperento">Espéranto</option>
                 </select>
-                
-                <button>
-                    <a href="#">S'identifier</a>
-                </button>
+                <a href="#" class="nav__identifier">S'identifier</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="intro">
-            <h2 class="intro__titre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sit. Amet, perspiciatis doloremque!</h2>
-                <p class="intro__p">Prêt à regarder Netflex ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.</p>
+            <h2 class="intro__titre">Les plus gros succès français et internationaux, les meilleures histoires se trouvent ici.</h2>
+                <p class="intro__p1">À regarder où vous voulez. Annulez à tout moment.</p>
+                <p class="intro__p2">Prêt à regarder Netflex ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.</p>
                 <div class="intro__mail">
                     <form method="get" action="#">
-                        <label for="mail" class="intro__mail__label"></label>
-                        <input type="mail" placeholder="Adresse e-mail" class="intro__mail__input" required="">
-
-                        <button>
-                            <a href="#" class="intro__mail__bouton">Commencer ></a>
-                        </button>
+                        <label for="mail"></label>
+                        <input type="mail" class="intro__mail__label" placeholder="Adresse e-mail" required="">
+                        <a href="#" class="intro__mail__bouton">Commencer ></a>
                     </form>
                 </div>
         </section>
 
         <section>
             <div class="intro__banniere">
-                <h2 class="intro__titre">Le Netflix que vous aimez pour juste 5,99 €.</h2>
+                <h3 class="intro__ss_titre">Le Netflix que vous aimez pour juste 5,99 €.</h3>
                 <p class="intro__text">Choisissez l'offre Standard avec pub.</p>
                 <a href="#">En savoir plus ></a>
             </div>
@@ -96,12 +91,12 @@
 
         <section class="question">
             <h2 class="question__titre">Foire aux questions</h2>
-                <a href="#">Netflex qu'est ce que c'est? +</a>
-                <a href="#">Combien coùte Netflex? +</a>
-                <a href="#">Où puis-je regarder Netflex?+</a>
-                <a href="#">Comment puis-je annuler mon offre?+</a>
-                <a href="#">Que puis-je regarder sur Netflex+</a>
-                <a href="#">Est-ce que Netflex est adapté aux enfants?+</a>
+                <a href="#">Netflex qu'est ce que c'est? <span>&#x2795;</span></a>
+                <a href="#">Combien coùte Netflex? <span>&#x2795;</span></a>
+                <a href="#">Où puis-je regarder Netflex? <span>&#x2795;</span></a>
+                <a href="#">Comment puis-je annuler mon offre? <span>&#x2795;</span></a>
+                <a href="#">Que puis-je regarder sur Netflex <span>&#x2795;</span></a>
+                <a href="#">Est-ce que Netflex est adapté aux enfants? <span>&#x2795;</span></a>
                 <p>Prêt à regarder Netflex ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.</p>
 
                 <div class="intro__mail">
@@ -141,12 +136,16 @@
                     <a href="#">Choix liés à la pub</a>
                 </div>
 
-                <div>
+                <div class="nav__langue2">
                     <select name="langues">
                         <option value="francais">Francais</option>
                         <option value="englais">English</option>
                         <option value="esperento">Espéranto</option>
                     </select>
+
+                    <button class="nav__langue__bouton2">
+                        <a href="#">S'identifier</a>
+                    </button>
                 </div>
                 <p>NETFLEX France</p>
         </footer>

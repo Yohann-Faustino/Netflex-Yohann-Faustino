@@ -1,4 +1,7 @@
 @use 'reset-css';
-h1{
-    background-color: red;
-}
+
+@use './utils/vars';
+
+@use '../layout/navigation';
+
+@use '../components/banniere';
