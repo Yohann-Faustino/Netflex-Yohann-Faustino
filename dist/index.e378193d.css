@@ -37,6 +37,10 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: lato, sans-serif;
+}
+
 :root {
   color: #fff;
   font-size: 20px;
@@ -192,6 +196,36 @@ input::placeholder {
 .support__animation {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.profils {
+  border-bottom: 5px solid #363636;
+}
+
+.profils__text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 19rem;
+  display: flex;
+}
+
+.profils__titre {
+  width: 65%;
+  margin-bottom: 2rem;
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+.profils__p {
+  width: 80%;
+  line-height: 30px;
+}
+
+.profils__animation {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 16rem;
 }
 
 .banniere {
