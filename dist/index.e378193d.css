@@ -38,16 +38,14 @@ table {
 }
 
 body {
+  color: #fff;
+  background-color: #000;
   font-family: lato, sans-serif;
 }
 
-:root {
-  color: #fff;
-  font-size: 20px;
-}
-
-body {
-  background-color: #000;
+p {
+  font-size: large;
+  font-weight: bold;
 }
 
 header {
@@ -111,6 +109,7 @@ header {
   margin-bottom: 1.5rem;
   font-size: xxx-large;
   font-weight: bold;
+  line-height: 4rem;
 }
 
 .intro__p2 {
@@ -196,6 +195,7 @@ input::placeholder {
 .support__animation {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  margin-left: 20rem;
 }
 
 .profils {
@@ -206,32 +206,61 @@ input::placeholder {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  margin-left: 19rem;
+  margin-left: 23rem;
   display: flex;
 }
 
 .profils__titre {
-  width: 65%;
+  width: 80%;
   margin-bottom: 2rem;
   font-size: xxx-large;
   font-weight: bold;
 }
 
 .profils__p {
-  width: 80%;
+  width: 70%;
   line-height: 30px;
 }
 
 .profils__animation {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-right: 16rem;
+  margin-right: 18rem;
+}
+
+.telecharger {
+  border-bottom: 5px solid #363636;
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.telecharger__animation {
+  width: 30%;
+  margin-left: 20rem;
+  margin-right: 10rem;
+}
+
+.telecharger__text {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.telecharger__titre {
+  width: 40%;
+  margin-bottom: 2rem;
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+.telecharger__p {
+  width: 35%;
 }
 
 .banniere {
-  width: 100%;
-  padding: 1.5rem 32rem 1.5rem 2rem;
-  line-height: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  line-height: 2rem;
 }
 
 .banniere__img {
@@ -243,20 +272,19 @@ input::placeholder {
 }
 
 .banniere__logo {
-  justify-content: right;
   align-items: center;
-  padding-left: 32rem;
   display: flex;
 }
 
 .banniere__titre {
-  width: 150%;
+  width: 180%;
   font-size: x-large;
   font-weight: bold;
 }
 
 .banniere, .banniere__logo, section {
   flex-direction: row;
+  justify-content: center;
   display: flex;
 }
 
@@ -271,10 +299,12 @@ input::placeholder {
 
 .degrade {
   background: linear-gradient(#30f, purple);
-  margin-left: 4rem;
-  margin-right: 4rem;
+  width: 90%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
   position: absolute;
-  bottom: 500px;
+  bottom: 460px;
 }
 
 /*# sourceMappingURL=index.e378193d.css.map */

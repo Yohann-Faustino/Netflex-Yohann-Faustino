@@ -1,0 +1,33 @@
+@use '../styles/utils/vars';
+
+.telecharger{
+
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(54, 54, 54);
+    display: flex;
+    flex-direction: row-reverse;
+
+    &__animation{
+        width: 30%;
+        margin-left: 20rem;
+        margin-right: 10rem;
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__titre{
+        font-size: xxx-large;
+        font-weight: bold;
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+
+    &__p{
+        width: 35%;
+    }
+}
