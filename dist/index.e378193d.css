@@ -143,27 +143,26 @@ input::placeholder {
 
 .tv {
   border-bottom: 5px solid #363636;
-  justify-content: right;
   align-items: center;
   margin-top: 5rem;
-  padding-right: 0%;
   display: flex;
-}
-
-.tv__p {
-  width: 70%;
 }
 
 .tv__img {
   width: 80%;
   margin-bottom: 4rem;
-  display: flex;
 }
 
 .tv__titre {
+  width: 80%;
   margin-bottom: 1rem;
-  font-size: xx-large;
+  font-size: xxx-large;
   font-weight: bold;
+}
+
+.tv__text {
+  width: 30%;
+  margin-left: 20rem;
 }
 
 .banniere {
