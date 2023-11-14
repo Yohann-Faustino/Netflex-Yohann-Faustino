@@ -3,43 +3,55 @@
 .banniere {
 
     width: 100%;
-    margin-left: 20rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 32rem;
+    padding-left: 2rem;
+    line-height: 1.5rem;
+
 
     &__img{
-        width: 15%;
+       height: 100px;
     }
+
     &__liens{
         color: rgb(131, 131, 255);
     }
 
+    &__logo{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-left: 32rem;
+    }
+
+    &__titre{
+        font-weight: bold;
+        font-size: x-large;
+        width: 150%;
+    }
 }
 
 .banniere, .banniere__logo, section {
+
     display: flex;
     flex-direction: row;
 }
 
 .banniere, .banniere__titre, .banniere__p, .banniere__liens{
+
     display: flex;
     flex-direction: column;
 }
 
 .block{
     position: relative;
-    
 }
+
 .degrade{
     background: linear-gradient( to bottom,rgb(51, 0, 255), purple);
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     position: absolute;
-    bottom: 80px;
-
-
-
-
+    bottom: 500px;
 }

@@ -11,7 +11,7 @@ body{
 
 header{
     background-image: url(../../image/FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.jpg);
-    height: 520px;
+    height: 700px;
     position: relative;
 }
 
@@ -22,44 +22,52 @@ header{
 }
 
 .nav{
+
     &__identifier{
         background-color: vars.$red_color;
         border-radius: vars.$radius;
         color: vars.$white_color;
         display: flex;
         align-items: center;
-        margin: vars.$rem;
         text-decoration: none;
         font-weight: bold;
-        margin-right: 430px;
-        margin-left: 0px;
-        padding: vars.$padding_btn;
+        margin-right: 350px;
         font-size: 14px;
+        padding-left: 14px;
+        padding-right: 14px;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        margin-left: 20px;
+
     }
+
     &__choix{
         background-color: transparent;
         color: vars.$white_color;
         border-radius: vars.$radius;
         border-color: vars.$white_color;
         font-weight: bold;
-        margin: vars.$rem;
-        padding: vars.$padding_btn;
-        font-size: 14px;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        padding-left: 25px;
+        padding-right: 25px;    
     }
+
     &__titre{
-        font-size: xx-large;
+        font-size: xxx-large;
         color: vars.$red_color;
         text-transform: uppercase;
         font-weight: bold;
         margin: vars.$rem;
-        margin-left: 350px;
+        margin-left: 370px;
     }
 }
 
 .intro{
+
     position: absolute;
     left: 60px;
-    top: 150px;
+    top: 250px;
     color: vars.$white_color;
     display: flex;
     align-items: center;
@@ -68,35 +76,43 @@ header{
     &__titre{
         font-size: xxx-large;
         font-weight: bold;
-        overflow-wrap: break-word; /* a voir retour ligne*/
         width: 58%;
         margin-bottom: 1.5rem;
     }
-    &__p1{
-        margin: vars.$rem;
-        margin-top: 0%;
-    }
+    
     &__p2{
         width: 45%;
         margin-bottom: vars.$rem;
-        
+        margin-top: 1.5rem;
     }
+
     &__mail__bouton{
         background-color: vars.$red_color;
         border-radius: vars.$radius;
         color: vars.$white_color;
         text-decoration: none;
-        padding: vars.$padding_btn;
-        padding-bottom: 10px;
         font-weight: bold;
+        padding-top: 12px;
+        padding-bottom: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size:x-large;
     }
+
     &__mail__label{
-        padding: 8px;
+        padding: 18px;
         background-color: transparent;
-        border-color: gray;
+        border-color: rgb(182, 182, 182);
         border-radius: vars.$radius;
+        padding-right: 180px;
+        background-color: rgba($color: #131212, $alpha: 0.5);  
     }
 }
+
+input::placeholder {
+      
+    color: rgb(182, 182, 182);
+  }
 
 .intro, .intro__mail{
     display: flex;

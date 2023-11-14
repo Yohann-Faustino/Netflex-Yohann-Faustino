@@ -48,7 +48,7 @@ body {
 
 header {
   background-image: url("FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.d083fb5b.jpg");
-  height: 520px;
+  height: 700px;
   position: relative;
 }
 
@@ -63,8 +63,9 @@ header {
   background-color: red;
   border-radius: 5px;
   align-items: center;
-  margin: 1rem 430px 1rem 0;
-  padding: 5px 15px;
+  margin: 28px 350px 28px 20px;
+  padding-left: 14px;
+  padding-right: 14px;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
@@ -76,17 +77,18 @@ header {
   background-color: #0000;
   border-color: #fff;
   border-radius: 5px;
-  margin: 1rem;
-  padding: 5px 15px;
-  font-size: 14px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  padding-left: 25px;
+  padding-right: 25px;
   font-weight: bold;
 }
 
 .nav__titre {
   color: red;
   text-transform: uppercase;
-  margin: 1rem 1rem 1rem 350px;
-  font-size: xx-large;
+  margin: 1rem 1rem 1rem 370px;
+  font-size: xxx-large;
   font-weight: bold;
 }
 
@@ -96,24 +98,20 @@ header {
   align-items: center;
   display: flex;
   position: absolute;
-  top: 150px;
+  top: 250px;
   left: 60px;
 }
 
 .intro__titre {
-  overflow-wrap: break-word;
   width: 58%;
   margin-bottom: 1.5rem;
   font-size: xxx-large;
   font-weight: bold;
 }
 
-.intro__p1 {
-  margin: 0% 1rem 1rem;
-}
-
 .intro__p2 {
   width: 45%;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -121,16 +119,21 @@ header {
   color: #fff;
   background-color: red;
   border-radius: 5px;
-  padding: 5px 15px 10px;
+  padding: 12px 30px 16px;
+  font-size: x-large;
   font-weight: bold;
   text-decoration: none;
 }
 
 .intro__mail__label {
-  background-color: #0000;
-  border-color: gray;
+  background-color: #13121280;
+  border-color: #b6b6b6;
   border-radius: 5px;
-  padding: 8px;
+  padding: 18px 180px 18px 18px;
+}
+
+input::placeholder {
+  color: #b6b6b6;
 }
 
 .intro, .intro__mail {
@@ -139,21 +142,55 @@ header {
 }
 
 .tv {
+  border-bottom: 5px solid #363636;
+  justify-content: right;
+  align-items: center;
   margin-top: 5rem;
+  padding-right: 0%;
+  display: flex;
+}
+
+.tv__p {
+  width: 70%;
+}
+
+.tv__img {
+  width: 80%;
+  margin-bottom: 4rem;
+  display: flex;
+}
+
+.tv__titre {
+  margin-bottom: 1rem;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .banniere {
   width: 100%;
-  margin-left: 20rem;
-  padding: 1rem 5rem;
+  padding: 1.5rem 32rem 1.5rem 2rem;
+  line-height: 1.5rem;
 }
 
 .banniere__img {
-  width: 15%;
+  height: 100px;
 }
 
 .banniere__liens {
   color: #8383ff;
+}
+
+.banniere__logo {
+  justify-content: right;
+  align-items: center;
+  padding-left: 32rem;
+  display: flex;
+}
+
+.banniere__titre {
+  width: 150%;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .banniere, .banniere__logo, section {
@@ -172,10 +209,10 @@ header {
 
 .degrade {
   background: linear-gradient(#30f, purple);
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
   position: absolute;
-  bottom: 80px;
+  bottom: 500px;
 }
 
 /*# sourceMappingURL=index.e378193d.css.map */
