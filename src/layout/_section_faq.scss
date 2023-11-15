@@ -24,6 +24,7 @@
         padding: 1rem;
         margin: 0.5rem;
         background-color: rgb(65, 65, 65);
+        width: 60%;
     }
 
     &__p{
@@ -57,3 +58,10 @@
         margin-bottom: 4rem;
     }
 }
+
+.faq, .faq__a, .faq__span{
+
+    display: flex;
+    justify-content: space-between;
+}
+
