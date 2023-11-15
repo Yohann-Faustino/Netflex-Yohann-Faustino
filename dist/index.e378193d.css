@@ -218,7 +218,7 @@ input::placeholder {
 }
 
 .profils__p {
-  width: 70%;
+  width: 80%;
   line-height: 30px;
 }
 
@@ -247,14 +247,10 @@ input::placeholder {
 }
 
 .telecharger__titre {
-  width: 40%;
+  width: 60%;
   margin-bottom: 2rem;
   font-size: xxx-large;
   font-weight: bold;
-}
-
-.telecharger__p {
-  width: 35%;
 }
 
 .faq {
@@ -336,18 +332,18 @@ input::placeholder {
   margin: 5px;
 }
 
+.footer__p {
+  margin-bottom: 3rem;
+  margin-left: 25rem;
+}
+
 .footer__langue__choix {
   color: #fff;
   background-color: #0000;
   border-radius: 5px;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   margin-left: 25rem;
   padding: 5px 10px;
-}
-
-.footer__langue__choix__logo {
-  margin-top: 2rem;
-  margin-bottom: 5rem;
 }
 
 .banniere {
