@@ -306,6 +306,44 @@ input::placeholder {
   padding: 18px 180px 18px 18px;
 }
 
+.footer__titre {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 25rem;
+}
+
+.footer__col1, .footer__col2, .footer__col3, .footer__col4 {
+  flex-direction: column;
+  display: flex;
+}
+
+.footer__block {
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  display: flex;
+}
+
+.footer__liens {
+  color: #fff;
+  margin: 5px;
+}
+
+.footer__langue__choix {
+  color: #fff;
+  background-color: #0000;
+  border-radius: 5px;
+  margin-bottom: 5rem;
+  margin-left: 25rem;
+  padding: 5px 10px;
+}
+
+.footer__langue__choix__logo {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
 .banniere {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
