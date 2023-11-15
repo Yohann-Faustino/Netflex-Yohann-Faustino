@@ -1,0 +1,59 @@
+@use '../styles/utils/vars';
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(54, 54, 54);
+
+    &__titre{
+        font-size: xxx-large;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+    }
+
+    &__a{
+        color: white;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 1rem;
+        margin: 0.5rem;
+        background-color: rgb(65, 65, 65);
+    }
+
+    &__p{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 40%;
+        text-align: center;
+    }
+
+    &__btn__bouton{
+        background-color: red;
+        border-radius:5px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size:x-large;
+        margin-left: 1rem;
+    }
+
+    &__btn__label{
+        padding: 18px;
+        background-color: transparent;
+        border-color: rgb(182, 182, 182);
+        border-radius: vars.$radius;
+        padding-right: 180px;
+        background-color: rgba($color: #131212, $alpha: 0.5);  
+        margin-bottom: 4rem;
+    }
+}
