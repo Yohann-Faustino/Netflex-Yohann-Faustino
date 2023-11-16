@@ -198,7 +198,7 @@ input::placeholder {
 }
 
 .profils {
-  border: 1px solid green;
+  border-bottom: 5px solid #363636;
   padding: 3rem 23rem;
 }
 
@@ -221,15 +221,10 @@ input::placeholder {
 }
 
 .telecharger {
-  border-bottom: 5px solid #363636;
+  border: solid;
   flex-direction: row-reverse;
+  padding: 3rem 23rem;
   display: flex;
-}
-
-.telecharger__animation {
-  width: 30%;
-  margin-left: 20rem;
-  margin-right: 10rem;
 }
 
 .telecharger__text {
@@ -239,7 +234,6 @@ input::placeholder {
 }
 
 .telecharger__titre {
-  width: 60%;
   margin-bottom: 2rem;
   font-size: xxx-large;
   font-weight: bold;
@@ -365,7 +359,6 @@ input::placeholder {
 
 .banniere, .banniere__logo, section {
   flex-direction: row;
-  justify-content: center;
   display: flex;
 }
 
