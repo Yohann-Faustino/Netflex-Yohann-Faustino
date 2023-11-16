@@ -14,6 +14,10 @@ header{
 
 .nav{
 
+    padding-top: 1rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+
     &__identifier{
         background-color: vars.$red_color;
         border-radius: vars.$radius;
@@ -22,14 +26,12 @@ header{
         align-items: center;
         text-decoration: none;
         font-weight: bold;
-        margin-right: 350px;
         font-size: 14px;
         padding-left: 14px;
         padding-right: 14px;
-        margin-top: 28px;
-        margin-bottom: 28px;
-        margin-left: 20px;
-
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-left: 1rem;
     }
 
     &__choix{
@@ -38,22 +40,16 @@ header{
         border-radius: vars.$radius;
         border-color: vars.$white_color;
         font-weight: bold;
-        margin-top: 28px;
-        margin-bottom: 28px;
         padding-left: 25px;
         padding-right: 25px;    
     }
-
-    &__titre{
-        font-size: xxx-large;
-        color: vars.$red_color;
-        text-transform: uppercase;
-        font-weight: bold;
-        margin: vars.$rem;
-        margin-left: 370px;
-    }
 }
 
+svg{
+    background-color: blue;
+    width: 50%;
+}
+ 
 .intro{
 
     position: absolute;
@@ -89,7 +85,6 @@ header{
         padding-left: 30px;
         padding-right: 30px;
         font-size:x-large;
-        margin-left: 1rem;
     }
 
     &__mail__label{

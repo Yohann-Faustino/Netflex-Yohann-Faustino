@@ -60,12 +60,20 @@ header {
   display: flex;
 }
 
+.nav {
+  padding-top: 1rem;
+  padding-left: 23rem;
+  padding-right: 23rem;
+}
+
 .nav__identifier {
   color: #fff;
   background-color: red;
   border-radius: 5px;
   align-items: center;
-  margin: 28px 350px 28px 20px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 1rem;
   padding-left: 14px;
   padding-right: 14px;
   font-size: 14px;
@@ -79,19 +87,14 @@ header {
   background-color: #0000;
   border-color: #fff;
   border-radius: 5px;
-  margin-top: 28px;
-  margin-bottom: 28px;
   padding-left: 25px;
   padding-right: 25px;
   font-weight: bold;
 }
 
-.nav__titre {
-  color: red;
-  text-transform: uppercase;
-  margin: 1rem 1rem 1rem 370px;
-  font-size: xxx-large;
-  font-weight: bold;
+svg {
+  background-color: #00f;
+  width: 50%;
 }
 
 .intro {
@@ -122,7 +125,6 @@ header {
   color: #fff;
   background-color: red;
   border-radius: 5px;
-  margin-left: 1rem;
   padding: 8px 30px 18px;
   font-size: x-large;
   font-weight: bold;
@@ -388,7 +390,7 @@ input::placeholder {
 }
 
 .degrade {
-  background: linear-gradient(#30f, purple);
+  background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #f90 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
   width: 90%;
   margin-left: 5rem;
   margin-right: 5rem;
