@@ -47,7 +47,7 @@ section {
 }
 
 .degrade{
-    /* background: linear-gradient( to bottom,rgb(51, 0, 255), purple); */
+
     background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
     position: absolute;
     bottom: 460px;
@@ -55,4 +55,9 @@ section {
     margin-left: 5rem;
     margin-right: 5rem;
     width: 90%;
+}
+
+.popcorn{
+    width: 100%;
+    margin-right: 1rem;
 }

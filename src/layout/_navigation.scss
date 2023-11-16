@@ -45,11 +45,12 @@ header{
     }
 }
 
-svg{
+.nav__titre{
     background-color: blue;
-    width: 50%;
+    color: red;
+    width: 15%;
 }
- 
+
 .intro{
 
     position: absolute;
@@ -85,6 +86,7 @@ svg{
         padding-left: 30px;
         padding-right: 30px;
         font-size:x-large;
+        margin-left: 1rem;
     }
 
     &__mail__label{
