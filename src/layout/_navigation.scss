@@ -84,11 +84,12 @@ header{
         color: vars.$white_color;
         text-decoration: none;
         font-weight: bold;
-        padding-top: 12px;
-        padding-bottom: 16px;
+        padding-top: 8px;
+        padding-bottom: 18px;
         padding-left: 30px;
         padding-right: 30px;
         font-size:x-large;
+        margin-left: 1rem;
     }
 
     &__mail__label{
