@@ -153,6 +153,7 @@ input::placeholder {
   border-bottom: 5px solid #363636;
   align-items: center;
   margin-top: 5rem;
+  padding: 3rem 8rem;
   display: flex;
 }
 
@@ -175,7 +176,7 @@ input::placeholder {
 .support {
   border-bottom: 5px solid #363636;
   flex-direction: row-reverse;
-  padding: 3rem 8rem;
+  padding: 3rem 23rem;
   display: flex;
 }
 
@@ -197,14 +198,13 @@ input::placeholder {
 }
 
 .profils {
-  border-bottom: 5px solid #363636;
+  border: 1px solid green;
+  padding: 3rem 23rem;
 }
 
 .profils__text {
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  margin-left: 23rem;
   display: flex;
 }
 
@@ -218,12 +218,6 @@ input::placeholder {
 .profils__p {
   width: 80%;
   line-height: 30px;
-}
-
-.profils__animation {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-right: 18rem;
 }
 
 .telecharger {
