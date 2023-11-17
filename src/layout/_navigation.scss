@@ -46,16 +46,12 @@ header{
 }
 
 .nav__titre{
-    background-color: blue;
-    color: red;
-    width: 15%;
+    
+    width: 20%;
 }
 
 .intro{
 
-    position: absolute;
-    left: 60px;
-    top: 250px;
     color: vars.$white_color;
     display: flex;
     align-items: center;

@@ -48,6 +48,24 @@ p {
   font-weight: bold;
 }
 
+.img-content-container {
+  width: 70%;
+  margin: 60px auto;
+  display: flex;
+}
+
+.img-content-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.tv__text, .support__text, .profils__text, .telecharger__text, .tv__animation, .support__animation, .profils__animation, .telecharger__animation {
+  width: 50%;
+}
+
+.tv__animation img, .support__animation img, .profils__animation img, .telecharger__animation img {
+  width: 100%;
+}
+
 header {
   background-image: url("FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.d083fb5b.jpg");
   height: 700px;
@@ -93,9 +111,7 @@ header {
 }
 
 .nav__titre {
-  color: red;
-  background-color: #00f;
-  width: 15%;
+  width: 20%;
 }
 
 .intro {
@@ -103,9 +119,6 @@ header {
   text-align: center;
   align-items: center;
   display: flex;
-  position: absolute;
-  top: 250px;
-  left: 60px;
 }
 
 .intro__titre {
@@ -151,33 +164,27 @@ input::placeholder {
 
 .tv {
   border-bottom: 5px solid #363636;
-  align-items: center;
   margin-top: 5rem;
-  padding: 3rem 8rem;
-  display: flex;
 }
 
 .tv__img {
   width: 80%;
-  margin-bottom: 4rem;
+}
+
+.tv__text {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
 }
 
 .tv__titre {
-  width: 80%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: xxx-large;
   font-weight: bold;
 }
 
-.tv__text {
-  width: 30%;
-}
-
 .support {
   border-bottom: 5px solid #363636;
-  flex-direction: row-reverse;
-  padding: 3rem 23rem;
-  display: flex;
 }
 
 .support__titre {
@@ -199,7 +206,6 @@ input::placeholder {
 
 .profils {
   border-bottom: 5px solid #363636;
-  padding: 3rem 23rem;
 }
 
 .profils__text {
@@ -221,10 +227,7 @@ input::placeholder {
 }
 
 .telecharger {
-  border: solid;
-  flex-direction: row-reverse;
-  padding: 3rem 23rem;
-  display: flex;
+  border-bottom: 5px solid #363636;
 }
 
 .telecharger__text {
@@ -294,33 +297,31 @@ input::placeholder {
   display: flex;
 }
 
-.footer__titre {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 25rem;
-}
-
-.footer__col1, .footer__col2, .footer__col3, .footer__col4 {
-  flex-direction: column;
-  display: flex;
+.footer {
+  padding: 60px;
 }
 
 .footer__block {
-  justify-content: space-around;
-  margin-bottom: 2rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 65%;
+  height: 230px;
+  margin: auto;
   display: flex;
 }
 
 .footer__liens {
-  color: #fff;
-  margin: 5px;
+  color: #747474;
+  margin: .8rem;
+}
+
+.footer__titre {
+  margin-bottom: 2rem;
+  padding-left: 325px;
 }
 
 .footer__p {
-  margin-bottom: 3rem;
-  margin-left: 25rem;
+  padding-left: 325px;
 }
 
 .footer__langue__choix {
@@ -328,7 +329,7 @@ input::placeholder {
   background-color: #0000;
   border-radius: 5px;
   margin-bottom: 2rem;
-  margin-left: 25rem;
+  margin-left: 325px;
   padding: 5px 10px;
 }
 
@@ -367,23 +368,19 @@ input::placeholder {
   display: flex;
 }
 
-.block {
-  position: relative;
-}
-
 .degrade {
   background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #f90 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
-  width: 90%;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin-left: 2rem;
+  margin-right: 2rem;
   position: absolute;
-  bottom: 460px;
+  bottom: 0;
+  transform: translateY(50%);
 }
 
-.popcorn {
-  width: 100%;
-  margin-right: 1rem;
+.banniere__logo {
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=index.e378193d.css.map */
