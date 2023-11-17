@@ -1,38 +1,38 @@
 body {
-    font-family:"lato",sans-serif;
-    color: white;
-    background-color: black;
+    font-family:"lato",sans-serif; /*Type police sur google font sans oublier de copier les liens de celle ci dans le html*/
+    color: white; /*Couleur generale de la police d'criture*/
+    background-color: black; /*Couleur de fond du site*/
 }
 
 p{
-    font-size: large;
-    font-weight: bold;
+    font-size: large; /*La police d'ecriture des paragraphes est plus grande*/
+    font-weight: bold; /*La police d'ecriture des paragraphes est en gras*/
 }
 
-.img-content-container {
-    width: 70%;
+.img-content-container { /*container ou l'img est a droite et le texte a gauche*/
+    width: 70%; /*Le container prens 70% de son parent*/
     display: flex;
-    margin: 60px auto;
+    margin: 60px auto; /*On lui applique un margin verticale de 60px et auto pour l'horizontale*/
 }
 
-.img-content-container.reverse {
+.img-content-container.reverse { /*container ou sont inverser img et texte*/
     flex-direction: row-reverse;
 }
 
-.tv__text,
+.tv__text, /*La partie texte dois faire 50% de son parent img-content-container ou img-content-container.reverse*/
 .support__text,
 .profils__text,
 .telecharger__text {
     width: 50%;
 }
 
-.tv__animation, 
+.tv__animation, /*La partie texte dois faire 50% de son parent img-content-container ou img-content-container.reverse*/
 .support__animation, 
 .profils__animation, 
 .telecharger__animation {
     width: 50%;
 
     img {
-        width: 100%;
+        width: 100%; /*Certaine img sont trops grandes donc on les obligent a prendre 100% de la taille de leur balise parent*/
     }
 } 

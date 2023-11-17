@@ -1,6 +1,6 @@
 @use '../styles/utils/vars'; 
 
-.banniere {
+.banniere {  /*texte de droit dans la banniere*/
 
     line-height: 2rem;
     padding-top: 1.5rem;
@@ -27,30 +27,30 @@
 }
 
 .banniere, 
-.banniere__logo, 
+.banniere__logo,  /*Aligner le logo popcorn avec son texte dans la bannniere*/
 section {
     display: flex;
     flex-direction: row;
 }
 
 .banniere, 
-.banniere__titre, 
+.banniere__titre,  /*Mise en colonne du texte de droite de la banniere*/
 .banniere__p, 
 .banniere__liens{
     display: flex;
     flex-direction: column;
 }
 
-.degrade{
+.degrade{  /*Couleur de fon en degrader radial de la banniere prise sur le site copiée et faite par un generateur*/
 
     background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
     width: 95%;
     justify-content: center;
     margin-left: 2rem;
     margin-right: 2rem;
-    position: absolute;
-    bottom: 0;
-    transform: translateY(50%);
+    position: absolute; /*Position qui permet de sortir la banniere de sa place*/
+    bottom: 0; /*Positionne la banniere coller au bas de son referent*/
+    transform: translateY(50%); /*deplace la banniere de 50% de sa taille dans le sens verticale (y) pourrait descendre si on utilise -50% et meme possibilite avec l'axe translatex*/
 }
 
 .banniere__logo {
