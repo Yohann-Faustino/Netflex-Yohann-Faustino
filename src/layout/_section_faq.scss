@@ -7,9 +7,7 @@
     border-bottom: solid;
     border-bottom-width: 5px;
     border-bottom-color: rgb(54, 54, 54);
-    width: 80%;
-    margin: auto;
-
+    width: 100%;
 
     &__titre{
         font-size: xxx-large;
@@ -19,17 +17,19 @@
     }
 
     &__questions{ /*on travaille les cases qui entourent les questions*/
-        color: white;
+        color: vars.$faq_police_color;
         font-weight: bold;
-        border: solid;
+        border: vars.$faq_border;
         border-width: 1px;
-        border-color: rgb(0, 0, 0);
+        border-color: vars.$faq_border_color;
         text-decoration: none;
         padding: 2rem;
-        margin-bottom: 0.5rem;
-        background-color: rgb(65, 65, 65);
-        width: 80%;
+        background-color: vars.$faq_bg_color;
+        width: 60%;
         margin: auto;
+        border: solid;
+        border-color: red;
+        border-width: 1px;
     }
 
     &__p{
@@ -40,9 +40,9 @@
     }
 
     &__btn__bouton{ /*bouton de validation du mail*/
-        background-color: vars.$red_color;
-        border-radius: vars.$radius;
-        color: vars.$white_color;
+        background-color: vars.$bouton_couleur_bg;
+        border-radius: vars.$bouton_border_radius;
+        color: vars.$bouton_couleur_police;
         text-decoration: none;
         font-weight: bold;
         padding-top: 8px;
@@ -55,11 +55,11 @@
 
     &__btn__label{ /*champs de saisie du mail*/
         padding: 18px;
-        background-color: transparent;
+        background-color: vars.$mail_bg_color;
         border-color: rgb(182, 182, 182);
-        border-radius: vars.$radius;
+        border-radius: vars.$mail_border_radius;
         padding-right: 180px;
-        background-color: rgba($color: #131212, $alpha: 0.5);  
+        background-color: vars.$mail_bg_color;  
         margin-bottom: 4rem;
     }
 
@@ -67,14 +67,14 @@
         max-height: 0; /*sert pour faire le depliant*/
         transition: max-height 1s ease-in; /*sert pour faire le depliant*/
         overflow: hidden; /*sert pour faire le depliant*/
-        color: white;
+        color: vars.$faq_police_color;
         border: solid;
-        border-width: 1px;
-        border-color: rgb(0, 0, 0);
+        border-width: vars.$faq_border;
+        border-color: vars.$faq_border_color;
         text-decoration: none;
-        background-color: rgb(65, 65, 65);
+        background-color: vars.$faq_bg_color;
         padding-left: 10px;
-        width: 83.5%;
+        width: 63%;
         margin: auto;
     }
 }

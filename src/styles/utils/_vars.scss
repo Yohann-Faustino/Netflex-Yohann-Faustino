@@ -1,10 +1,24 @@
-$red_color:rgb(255, 0, 0); /*couleur des boutons rouges*/
-$white_color:white; /*couleur des textes interieurs des boutons*/
+/*Boutons*/
+$bouton_couleur_bg: red;
+$bouton_couleur_police: white;
+$bouton_border_radius: 5px;
 
-$rem: 1rem;
+/*Champs saisie mail*/
+$mail_border_color: rgb(182, 182, 182);
+$mail_bg_color: rgba($color: #131212, $alpha: 0.5);
+$mail_placeholder_color: rgb(182, 182, 182);
+$mail_border_radius: 5px;
 
-$padding: 10px;
-$radius: 5px;
+/*Selecteur de langue*/
+$lang_police_color :white;
+$lang_bg_color: transparent;
+$lang_border_radius: 5px;
+$lang_border_color: white;
 
+/*Cases faq questions/reponses*/
+$faq_bg_color:rgb(65, 65, 65);
+$faq_border_color:rgb(0, 0, 0);
+$faq_police_color:white;
+$faq_border:solid;
 
 

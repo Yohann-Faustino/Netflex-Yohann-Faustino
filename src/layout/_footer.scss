@@ -31,9 +31,10 @@
 
 .footer__langue__choix{ /*bouton choix de la langue*/
 
-    background-color: transparent;
-    color: white;
-    border-radius: 5px;
+    background-color: vars.$lang_bg_color;
+    color: vars.$lang_police_color;
+    border-radius: vars.$lang_border_radius;
+    border-color: vars.$lang_border_color;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
