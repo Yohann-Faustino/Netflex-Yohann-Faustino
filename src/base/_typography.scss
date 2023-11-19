@@ -40,7 +40,7 @@ p{
 @media all and (max-width: 1280px) { /* a 1280px et plus la modif suivante seffectuera*/
 
     .img-content-container, .img-content-container.reverse, html { /* on vise ces classes pour effectuer un changement */
-    width: 100%;
+    width: 100%; /* on souhaite que ces classes prennent 100% de la taille de leurs balises parents*/
     }
 }
 
@@ -48,7 +48,7 @@ p{
     
     .img-content-container, .img-content-container.reverse, html { /* on vise ces classes pour effectuer un changement */
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: column; /* on souhaite que ces classes se mettent en colonne*/
+    width: 100%; /* on souhaite que ces classes prennent 100% de la taille de leurs balises parents*/
     }
 }

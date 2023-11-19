@@ -4,7 +4,7 @@
     
     padding: 60px;
 
-    &__block{
+    &__block{ /*block autour des liens et non le footer*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@
     }
 }
 
-.footer__langue__choix{
+.footer__langue__choix{ /*bouton choix de la langue*/
 
     background-color: transparent;
     color: white;

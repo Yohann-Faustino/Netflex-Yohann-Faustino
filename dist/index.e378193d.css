@@ -93,9 +93,7 @@ header {
 }
 
 .nav {
-  padding-top: 1rem;
-  padding-left: 23rem;
-  padding-right: 23rem;
+  padding: 1rem 23rem 10rem;
 }
 
 .nav__identifier {

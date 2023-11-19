@@ -3,10 +3,10 @@
 header{
     background-image: url(../../image/FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     height: 700px;
-    position: relative;
+    position: relative; /*la banniere se deplace par rapport au header*/
 }
 
-.nav, .nav__titre, .nav__langue1, .nav__langue__bouton1{
+.nav, .nav__titre, .nav__langue1, .nav__langue__bouton1{ /*on aligne le logo avec les boutons langue et connexion*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,8 +17,9 @@ header{
     padding-top: 1rem;
     padding-left: 23rem;
     padding-right: 23rem;
+    padding-bottom: 10rem;
 
-    &__identifier{
+    &__identifier{ /*bouton connexion*/
         background-color: vars.$red_color;
         border-radius: vars.$radius;
         color: vars.$white_color;
@@ -34,7 +35,7 @@ header{
         margin-left: 1rem;
     }
 
-    &__choix{
+    &__choix{ /*bouton choix de langue*/
         background-color: transparent;
         color: vars.$white_color;
         border-radius: vars.$radius;
@@ -43,12 +44,12 @@ header{
         padding-left: 25px;
         padding-right: 25px;    
     }
+    &__titre{
+        width: 20%; /*La taille du logo influance egalement la taille des boutons choix de langue et connexion*/
+    }
 }
 
-.nav__titre{
-    
-    width: 20%;
-}
+
 
 .intro{
 
@@ -71,7 +72,7 @@ header{
         margin-top: 1.5rem;
     }
 
-    &__mail__bouton{
+    &__mail__bouton{ /*espace de saisie du mail*/
         background-color: vars.$red_color;
         border-radius: vars.$radius;
         color: vars.$white_color;
@@ -85,7 +86,7 @@ header{
         margin-left: 1rem;
     }
 
-    &__mail__label{
+    &__mail__label{ /*bouton de validation du mail*/
         padding: 18px;
         background-color: transparent;
         border-color: rgb(182, 182, 182);
@@ -95,7 +96,7 @@ header{
     }
 }
 
-input::placeholder {
+input::placeholder { /*on cible les mots dans la case de saisie du mail (adresse e-mail)*/
       
     color: rgb(182, 182, 182);
   }

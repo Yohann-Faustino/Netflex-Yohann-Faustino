@@ -18,7 +18,7 @@
         margin-top: 5rem;
     }
 
-    &__questions{
+    &__questions{ /*on travaille les cases qui entourent les questions*/
         color: white;
         font-weight: bold;
         border: solid;
@@ -39,7 +39,7 @@
         text-align: center;
     }
 
-    &__btn__bouton{
+    &__btn__bouton{ /*bouton de validation du mail*/
         background-color: vars.$red_color;
         border-radius: vars.$radius;
         color: vars.$white_color;
@@ -53,7 +53,7 @@
         margin-left: 1rem;
     }
 
-    &__btn__label{
+    &__btn__label{ /*champs de saisie du mail*/
         padding: 18px;
         background-color: transparent;
         border-color: rgb(182, 182, 182);
@@ -63,10 +63,10 @@
         margin-bottom: 4rem;
     }
 
-    &__reponses{
-        max-height: 0;
-        transition: max-height 1s ease-in;
-        overflow: hidden;
+    &__reponses{ /*texte qui se deplie quand on passe la souris sur les questions*/
+        max-height: 0; /*sert pour faire le depliant*/
+        transition: max-height 1s ease-in; /*sert pour faire le depliant*/
+        overflow: hidden; /*sert pour faire le depliant*/
         color: white;
         border: solid;
         border-width: 1px;
@@ -79,12 +79,12 @@
     }
 }
 
-.faq__boite:hover .faq__reponses{
+.faq__boite:hover .faq__reponses{ /*sert pour faire le depliant*/
     max-height: 500px;
     transition: max-height 1s ease-in;
 }
 
-.faq, .faq__questions, .faq__span{
+.faq, .faq__questions, .faq__span{ /*met un ecart entre la question et le logo en forme de croix*/
 
     display: flex;
     justify-content: space-between;
