@@ -66,6 +66,20 @@ p {
   width: 100%;
 }
 
+@media (width <= 1280px) {
+  .img-content-container, .img-content-container.reverse, html {
+    width: 100%;
+  }
+}
+
+@media (width <= 960px) {
+  .img-content-container, .img-content-container.reverse, html {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+  }
+}
+
 header {
   background-image: url("FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.d083fb5b.jpg");
   height: 700px;

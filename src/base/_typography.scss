@@ -36,3 +36,19 @@ p{
         width: 100%; /*Certaine img sont trops grandes donc on les obligent a prendre 100% de la taille de leur balise parent*/
     }
 } 
+
+@media all and (max-width: 1280px) { /* a 1280px et plus la modif suivante seffectuera*/
+
+    .img-content-container, .img-content-container.reverse, html { /* on vise ces classes pour effectuer un changement */
+    width: 100%;
+    }
+}
+
+@media all and (max-width: 960px) { /* a 960px et moins la modif suivante seffectuera*/
+    
+    .img-content-container, .img-content-container.reverse, html { /* on vise ces classes pour effectuer un changement */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+}
