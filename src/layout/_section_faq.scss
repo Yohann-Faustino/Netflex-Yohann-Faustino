@@ -7,6 +7,9 @@
     border-bottom: solid;
     border-bottom-width: 5px;
     border-bottom-color: rgb(54, 54, 54);
+    width: 80%;
+    margin: auto;
+
 
     &__titre{
         font-size: xxx-large;
@@ -15,22 +18,24 @@
         margin-top: 5rem;
     }
 
-    &__a{
+    &__questions{
         color: white;
+        font-weight: bold;
         border: solid;
         border-width: 1px;
         border-color: rgb(0, 0, 0);
         text-decoration: none;
-        padding: 1rem;
-        margin: 0.5rem;
+        padding: 2rem;
+        margin-bottom: 0.5rem;
         background-color: rgb(65, 65, 65);
-        width: 60%;
+        width: 80%;
+        margin: auto;
     }
 
     &__p{
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-bottom: 2rem;
-        width: 40%;
+        width: 50%;
         text-align: center;
     }
 
@@ -57,9 +62,29 @@
         background-color: rgba($color: #131212, $alpha: 0.5);  
         margin-bottom: 4rem;
     }
+
+    &__reponses{
+        max-height: 0;
+        transition: max-height 1s ease-in;
+        overflow: hidden;
+        color: white;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(0, 0, 0);
+        text-decoration: none;
+        background-color: rgb(65, 65, 65);
+        padding-left: 10px;
+        width: 83.5%;
+        margin: auto;
+    }
 }
 
-.faq, .faq__a, .faq__span{
+.faq__boite:hover .faq__reponses{
+    max-height: 500px;
+    transition: max-height 1s ease-in;
+}
+
+.faq, .faq__questions, .faq__span{
 
     display: flex;
     justify-content: space-between;

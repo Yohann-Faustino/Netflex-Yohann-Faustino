@@ -246,6 +246,8 @@ input::placeholder {
   border-bottom: 5px solid #363636;
   flex-direction: column;
   align-items: center;
+  width: 80%;
+  margin: auto;
   display: flex;
 }
 
@@ -256,20 +258,21 @@ input::placeholder {
   font-weight: bold;
 }
 
-.faq__a {
+.faq__questions {
   color: #fff;
   background-color: #414141;
   border: 1px solid #000;
-  width: 60%;
-  margin: .5rem;
-  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  font-weight: bold;
   text-decoration: none;
 }
 
 .faq__p {
   text-align: center;
-  width: 40%;
-  margin-top: 2rem;
+  width: 50%;
+  margin-top: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -292,7 +295,25 @@ input::placeholder {
   padding: 18px 180px 18px 18px;
 }
 
-.faq, .faq__a, .faq__span {
+.faq__reponses {
+  color: #fff;
+  background-color: #414141;
+  border: 1px solid #000;
+  width: 83.5%;
+  max-height: 0;
+  margin: auto;
+  padding-left: 10px;
+  text-decoration: none;
+  transition: max-height 1s ease-in;
+  overflow: hidden;
+}
+
+.faq__boite:hover .faq__reponses {
+  max-height: 500px;
+  transition: max-height 1s ease-in;
+}
+
+.faq, .faq__questions, .faq__span {
   justify-content: space-between;
   display: flex;
 }
