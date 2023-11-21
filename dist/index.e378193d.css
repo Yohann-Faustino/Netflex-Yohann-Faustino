@@ -400,6 +400,47 @@ input::placeholder {
   transform: translate(-50%, -80%);
 }
 
+.telecharger__banderole {
+  background-color: #000;
+  border: solid gray;
+  border-radius: 10px;
+  width: 20%;
+  display: flex;
+}
+
+.telecharger__banderole__miniature {
+  width: 15%;
+  padding: 5px;
+}
+
+.telecharger__dl {
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px;
+  display: flex;
+}
+
+.telecharger__dl h3 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.telecharger__dl p {
+  color: #4c4cff;
+}
+
+.telecharger {
+  position: relative;
+}
+
+.telecharger__banderole {
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-135%, 130%);
+}
+
 .banniere {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;

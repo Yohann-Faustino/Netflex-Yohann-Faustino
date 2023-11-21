@@ -29,3 +29,58 @@
     z-index: -1;
     width: 60%;
 }
+
+/*On travail la banderole de la section telecharger*/
+
+.telecharger__banderole{
+
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+    border-color: gray;
+    background-color: black;
+    width: 20%;
+
+    &__miniature{
+
+        width: 15%;
+        padding: 5px;
+    }
+
+}
+
+.telecharger__dl{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+
+    h3{
+        font-weight: bold;
+        font-size: large;
+    }
+
+    p{
+        color: rgb(76, 76, 255);
+    }
+
+}
+
+
+
+/*Superposition de la banderole telecharger*/
+.telecharger{
+
+    position: relative;
+}
+
+.telecharger__banderole{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-135%, 130%);
+    z-index: 5;
+
+}

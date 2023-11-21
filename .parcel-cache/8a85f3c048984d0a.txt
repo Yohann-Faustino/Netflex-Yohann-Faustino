@@ -1,4 +1,4 @@
-9900
+9901
 106C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\parcel\src\cli.js133440861894436276 0
 132C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\stable\string\virtual\trim-right.js133440870399905789 0
 119C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\stable\string\blink.js133440870036560492 0
@@ -41,7 +41,7 @@
 113C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\node-addon-api\nothing.c133440861819281495 0
 110C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\csso\dist\csso.esm.js133440862215189070 0
 136C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@swc\helpers\esm\_class_private_field_update.js133440862287353787 0
-80C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist133450609950887338 1
+80C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist133450647111509523 1
 123C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\actual\reflect\own-keys.js133440870271931571 0
 120C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\caniuse-lite\data\regions\SR.js133440862559765957 0
 136C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\full\async-iterator\as-indexed-pairs.js133440869984226028 0
@@ -126,7 +126,7 @@
 125C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\modules\es.regexp.dot-all.js133440870091272269 0
 105C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\semver\README.md133440862157525346 0
 121C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\css-select\node_modules\domutils133440862158460146 1
-90C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\src\index.html133450606396585547 0
+90C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\src\index.html133450639289136695 0
 121C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\stable\url-search-params133440870229993237 1
 99C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\color-name133440861860549791 1
 121C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\css-tree\lib\syntax\node\Hash.js133440862364053138 0
@@ -207,7 +207,7 @@
 127C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\type-fest\source\conditional-pick.d.ts133440861937693634 0
 103C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\src\layout\_navigation.scss133449697724481070 0
 149C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\jsAPI.d.ts133440862247237743 0
-111C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\src\layout\_sections_container.scss133450609947778465 0
+111C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\src\layout\_sections_container.scss133450647169749909 0
 118C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\actual\is-iterable.js133440870237398326 0
 116C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\es\function\bind.js133440870032650502 0
 113C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\json5\dist\index.min.mjs133440861973133576 0
@@ -282,7 +282,7 @@
 132C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\proposals\promise-with-resolvers.js133440870279777319 0
 97C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\anymatch133440876782179475 1
 145C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Dimension.cjs133440862099297887 0
-103C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\index.e378193d.css.map133450609950876977 0
+103C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\index.e378193d.css.map133450647111493340 0
 125C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\svgo\plugins\removeElementsByAttr.js133440862219491022 0
 105C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\srcset\readme.md133440861863951170 0
 115C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\full\math\hypot.js133440870199466794 0
@@ -2179,7 +2179,7 @@
 133C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\features\array\virtual\to-spliced.js133440870380534705 0
 144C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@swc\helpers\src\_class_static_private_field_update.mjs133440862446746076 0
 131C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\caniuse-lite\data\features\border-image.js133440862228496445 0
-101C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\netflex.f65b25d0.png133450606422692646 0
+101C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\netflex.f65b25d0.png133450639842752119 0
 122C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\postcss-value-parser\lib\index.js133440861843838339 0
 117C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\entities\lib\decode.d.ts.map133440861980101052 0
 122C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\postcss-value-parser\lib\parse.js133440861855898730 0
@@ -3458,7 +3458,7 @@
 142C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@parcel\optimizer-svgo\node_modules\csso\dist\csso.js133440862035410561 0
 115C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\stable\array\at.js133440870025382210 0
 135C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\csso\node_modules\css-tree\lib\syntax\index.js133440862366560801 0
-158C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\vecteezy_watercolor-flowers-with-rose-gold-alphabet_10249881_733.b6f73306.png133450606439321806 0
+158C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\vecteezy_watercolor-flowers-with-rose-gold-alphabet_10249881_733.b6f73306.png133450639847822726 0
 128C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\feather-icons\dist\icons\chevron-up.svg133440869953920395 0
 124C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\feather-icons\dist\icons\edit-2.svg133440869978278609 0
 132C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\feather-icons\dist\icons\chevrons-right.svg133440869954770763 0
@@ -4103,7 +4103,7 @@
 123C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\stable\string\fontcolor.js133440870162343168 0
 124C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\css-select\lib\esm\compile.d.ts.map133440862097559963 0
 144C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\csso\node_modules\css-tree\lib\syntax\node\Dimension.js133440862343453314 0
-97C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\tel.9e7b76d9.jpg133450606422686453 0
+97C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\tel.9e7b76d9.jpg133450639840236134 0
 133C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\caniuse-lite\data\features\serviceworkers.js133440862555967666 0
 152C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\types.js133440861956898441 0
 143C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\csso\node_modules\css-tree\lib\syntax\node\Function.js133440862348177494 0
@@ -4498,7 +4498,7 @@
 119C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\css-what\lib\commonjs\index.js133440861845405191 0
 128C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\css-tree\lib\definition-syntax\index.js133440862371247423 0
 124C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\es\string\virtual\repeat.js133440870292905276 0
-102C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\profilsI.9c7501ab.png133450606422887987 0
+102C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\profilsI.9c7501ab.png133450639840584643 0
 125C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\css-what\lib\commonjs\parse.d.ts.map133440861956655908 0
 124C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\core-js\features\string\includes.js133440870204338707 0
 119C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\css-what\lib\commonjs\parse.js133440861883664857 0
@@ -8462,7 +8462,7 @@
 108C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\braces\CHANGELOG.md133440861839849388 0
 103C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\braces\LICENSE133440861863646653 0
 112C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@swc\helpers\_\_dispose133440862402111704 1
-158C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.d083fb5b.jpg133450606422780112 0
+158C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.d083fb5b.jpg133450639842197736 0
 105C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\braces\README.md133440861880610599 0
 112C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\braces\lib\constants.js133440861903404882 0
 109C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\braces\lib\expand.js133440861910610610 0
@@ -8574,7 +8574,7 @@
 130C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@swc\helpers\_\_to_primitive\package.json133440862432884142 0
 126C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@swc\helpers\_\_to_array\package.json133440862432093971 0
 123C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@swc\helpers\_\_throw\package.json133440862432033997 0
-118C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\Portfolio-Yohann-Faustino.59712999.js133450606422636373 0
+118C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\Portfolio-Yohann-Faustino.59712999.js133450639841921110 0
 133C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@swc\helpers\_\_sliced_to_array\package.json133440862430556095 0
 143C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@swc\helpers\_\_object_without_properties\package.json133440862427986442 0
 144C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\node_modules\@swc\helpers\_\_object_destructuring_empty\package.json133440862427029581 0
@@ -9891,11 +9891,12 @@
 89C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\image\tel.jpg133444577676436226 0
 133C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\image\vecteezy_popcorn-box-ai-generative_23215419_784.png133444296031327928 0
 150C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\image\vecteezy_watercolor-flowers-with-rose-gold-alphabet_10249881_733.png133445568101677752 0
-99C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\index.e378193d.css133450609950824370 0
-91C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\index.html133450606422573480 0
-96C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\pc.acf956e2.png133450606422763648 0
+99C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\index.e378193d.css133450647111436495 0
+91C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\index.html133450639841921110 0
+96C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\pc.acf956e2.png133450639840558477 0
 101C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\popcorn.a16493dc.svg133447077626160788 0
-122C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\Portfolio-Yohann-Faustino.59712999.js.map133450606422908400 0
-96C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\tv.f35575f5.png133450606431197195 0
-102C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\video-pc.55a605e8.m4v133450604115331858 0
-107C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\video-tv-0819.3776fed6.m4v133450604116432083 0
+122C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\Portfolio-Yohann-Faustino.59712999.js.map133450639842161177 0
+119C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\stranger things miniature.d08d056d.png133450639841515940 0
+96C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\tv.f35575f5.png133450639842682758 0
+102C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\video-pc.55a605e8.m4v133450639841921110 0
+107C:\Users\student\Formation oclock\Stage\portfolio\Portfolio-Yohann-Faustino\dist\video-tv-0819.3776fed6.m4v133450638166973296 0
