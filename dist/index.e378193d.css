@@ -83,7 +83,6 @@ p {
 header {
   background-image: url("FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.d083fb5b.jpg");
   height: 700px;
-  position: relative;
 }
 
 .nav, .nav__titre, .nav__langue1, .nav__langue__bouton1 {
@@ -262,6 +261,10 @@ input::placeholder {
   display: flex;
 }
 
+.faq__boite {
+  width: 60%;
+}
+
 .faq__titre {
   margin-top: 5rem;
   margin-bottom: 2rem;
@@ -272,8 +275,7 @@ input::placeholder {
 .faq__questions {
   color: #fff;
   background-color: #414141;
-  border: 1px solid red;
-  width: 60%;
+  border: 1px solid;
   margin: auto;
   padding: 2rem;
   font-weight: bold;
@@ -312,13 +314,17 @@ input::placeholder {
   border-width: solid;
   background-color: #414141;
   border-color: #000;
-  width: 63%;
   max-height: 0;
   margin: auto;
   padding-left: 10px;
   text-decoration: none;
   transition: max-height 1s ease-in;
   overflow: hidden;
+}
+
+.faq__reponses p {
+  color: red;
+  padding: 10px;
 }
 
 .faq__boite:hover .faq__reponses {
@@ -368,6 +374,32 @@ input::placeholder {
   padding: 5px 10px;
 }
 
+.tv__animation {
+  position: relative;
+}
+
+.video__tv {
+  z-index: -1;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -54%);
+}
+
+.support__animation {
+  position: relative;
+}
+
+.video__pc {
+  z-index: -1;
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+
 .banniere {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -388,7 +420,6 @@ input::placeholder {
 }
 
 .banniere__titre {
-  width: 180%;
   font-size: x-large;
   font-weight: bold;
 }
@@ -407,11 +438,27 @@ input::placeholder {
   background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #f90 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
   justify-content: center;
   width: 95%;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin: auto;
   position: absolute;
-  bottom: 0;
-  transform: translateY(50%);
+  bottom: 135px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (width < 1280px) {
+  .degrade {
+    width: 100%;
+    position: static;
+    transform: none;
+  }
+}
+
+@media screen and (width < 800px) {
+  .degrade {
+    border-radius: 10px;
+    width: 95%;
+    margin-top: 10px;
+  }
 }
 
 .banniere__logo {
