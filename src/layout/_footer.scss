@@ -4,7 +4,7 @@
     
     padding: 60px;
 
-    &__block{ /*block autour des liens et non le footer*/
+    &__block{ /*Block autour des liens et non le footer*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@
     }
 }
 
-.footer__langue__choix{ /*bouton choix de la langue*/
+.footer__langue__choix{ /*Bouton choix de la langue*/
 
     background-color: vars.$lang_bg_color;
     color: vars.$lang_police_color;
@@ -43,9 +43,9 @@
     margin-left: 325px;
 }
 
-@media all and (max-width: 960px) { /* a 1280px et plus la modif suivante seffectuera*/
+@media all and (max-width: 960px) { /* A 1280px et plus la modif suivante seffectuera*/
 
-    .footer__block { /* on vise ces classes pour effectuer un changement */
+    .footer__block { /* On vise ces classes pour effectuer un changement */
         
         margin: 0%;
         display: flex;
@@ -55,7 +55,7 @@
 
     }
 
-    .footer__titre{ /*on retire les margin et padding suivants*/
+    .footer__titre{ /*On retire les margin et padding suivants*/
 
         padding: 0%;
     }

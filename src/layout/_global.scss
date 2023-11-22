@@ -9,13 +9,13 @@ p{
     font-weight: bold; /*La police d'ecriture des paragraphes est en gras*/
 }
 
-.img-content-container { /*container ou l'img est a droite et le texte a gauche*/
+.img-content-container { /*Container ou l'img est a droite et le texte a gauche*/
     width: 70%; /*Le container prens 70% de son parent*/
     display: flex;
     margin: 60px auto; /*On lui applique un margin verticale de 60px et auto pour l'horizontale*/
 }
 
-.img-content-container.reverse { /*container ou sont inverser img et texte*/
+.img-content-container.reverse { /*Container ou sont inverser img et texte*/
     flex-direction: row-reverse;
 }
 
@@ -37,18 +37,18 @@ p{
     }
 } 
 
-@media all and (max-width: 1280px) { /* a 1280px et plus la modif suivante seffectuera*/
+@media all and (max-width: 1280px) { /* A 1280px et plus la modif suivante seffectuera*/
 
-    .img-content-container, .img-content-container.reverse, html { /* on vise ces classes pour effectuer un changement */
-    width: 100%; /* on souhaite que ces classes prennent 100% de la taille de leurs balises parents*/
+    .img-content-container, .img-content-container.reverse, html { /* On vise ces classes pour effectuer un changement */
+    width: 100%; /* On souhaite que ces classes prennent 100% de la taille de leurs balises parents*/
     }
 }
 
-@media all and (max-width: 960px) { /* a 960px et moins la modif suivante seffectuera*/
+@media all and (max-width: 960px) { /* A 960px et moins la modif suivante seffectuera*/
     
-    .img-content-container, .img-content-container.reverse, html { /* on vise ces classes pour effectuer un changement */
+    .img-content-container, .img-content-container.reverse, html { /* On vise ces classes pour effectuer un changement */
     display: flex;
-    flex-direction: column; /* on souhaite que ces classes se mettent en colonne*/
-    width: 100%; /* on souhaite que ces classes prennent 100% de la taille de leurs balises parents*/
+    flex-direction: column; /* On souhaite que ces classes se mettent en colonne*/
+    width: 100%; /* On souhaite que ces classes prennent 100% de la taille de leurs balises parents*/
     }
 }

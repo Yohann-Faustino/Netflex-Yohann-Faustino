@@ -2,11 +2,13 @@
 
 header{
     background-image: url(../../image/FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    margin-bottom: 2rem;
     height: 700px;
-    //position: relative; /*la banniere se deplace par rapport au header*/
 }
 
-.nav, .nav__titre, .nav__langue1, .nav__langue__bouton1{ /*on aligne le logo avec les boutons langue et connexion*/
+.nav, .nav__titre, 
+.nav__langue1, 
+.nav__langue__bouton1{ /*On aligne le logo avec les boutons langue et connexion*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,7 +21,7 @@ header{
     padding-right: 23rem;
     padding-bottom: 10rem;
 
-    &__identifier{ /*bouton connexion*/
+    &__identifier{ /*Bouton connexion*/
         background-color: vars.$bouton_couleur_bg;
         border-radius: vars.$bouton_border_radius;
         color: vars.$bouton_couleur_police;
@@ -35,7 +37,7 @@ header{
         margin-left: 1rem;
     }
 
-    &__choix{ /*bouton choix de langue*/
+    &__choix{ /*Bouton choix de langue*/
         background-color: vars.$lang_bg_color;
         color: vars.$lang_police_color;
         border-radius: vars.$lang_border_radius;
@@ -70,7 +72,7 @@ header{
         margin-top: 1.5rem;
     }
 
-    &__mail__bouton{ /*bouton de validation du mail*/
+    &__mail__bouton{ /*Bouton de validation du mail*/
         background-color: vars.$bouton_couleur_bg;
         border-radius: vars.$bouton_border_radius;
         color: vars.$bouton_couleur_police;
@@ -84,7 +86,7 @@ header{
         margin-left: 1rem;
     }
 
-    &__mail__label{ /*espace de saisie du mail*/
+    &__mail__label{ /*Espace de saisie du mail*/
         padding: 18px;
         background-color: vars.$mail_bg_color;
         border-color: vars.$mail_border_color;
@@ -93,12 +95,13 @@ header{
     }
 }
 
-input::placeholder { /*on cible les mots dans la case de saisie du mail (adresse e-mail)*/
+input::placeholder { /*On cible les mots dans la case de saisie du mail (adresse e-mail)*/
       
     color: vars.$mail_placeholder_color;
   }
 
-.intro, .intro__mail{
+.intro, 
+.intro__mail{
     display: flex;
     flex-direction: column;
 }

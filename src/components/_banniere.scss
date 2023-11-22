@@ -1,6 +1,6 @@
 @use '../styles/utils/vars'; 
 
-.banniere {  /*texte de droit dans la banniere*/
+.banniere {  /*Texte de droite dans la banniere*/
 
     line-height: 2rem;
     padding-top: 1.5rem;
@@ -47,10 +47,10 @@ section {
     justify-content: center;
     margin: auto;
     position: absolute; /*Position qui permet de sortir la banniere de sa place*/
-    bottom: 135px; /*Positionne la banniere coller au bas de son referent*/
+    bottom: 50%; /*Positionne la banniere au centre de son referent grace a ces deux valeurs*/
     left: 50%;
-    //transform: translateY(50%); /*deplace la banniere de 50% de sa taille dans le sens verticale (y) pourrait descendre si on utilise -50% et meme possibilite avec l'axe translatex*/
-    transform: translateX(-50%);
+    transform: translate(-50%, 220%); //deplace la banniere apres l'avoir fixer precedement pour qu'elle reste immobile en responsive*/
+   
 
     @media screen and (width < 1280px) {
         position: static;
@@ -66,6 +66,7 @@ section {
 }
 
 .banniere__logo {
+
     margin-right: 20px;
 }
 

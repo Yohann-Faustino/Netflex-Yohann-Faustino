@@ -20,7 +20,7 @@
         margin-top: 5rem;
     }
 
-    &__questions{ /*on travaille les cases qui entourent les questions*/
+    &__questions{ /*On travaille les cases qui entourent les questions*/
         font-weight: bold;
         border: vars.$faq_border;
         border-width: 1px;
@@ -41,7 +41,7 @@
         text-align: center;
     }
 
-    &__btn__bouton{ /*bouton de validation du mail*/
+    &__btn__bouton{ /*Bouton de validation du mail*/
         background-color: vars.$bouton_couleur_bg;
         border-radius: vars.$bouton_border_radius;
         color: vars.$bouton_couleur_police;
@@ -55,7 +55,7 @@
         margin-left: 1rem;
     }
 
-    &__btn__label{ /*champs de saisie du mail*/
+    &__btn__label{ /*Champs de saisie du mail*/
         padding: 18px;
         background-color: vars.$mail_bg_color;
         border-color: rgb(182, 182, 182);
@@ -67,10 +67,10 @@
 
     
 
-    &__reponses{ /*texte qui se deplie quand on passe la souris sur les questions*/
-        max-height: 0; /*sert pour faire le depliant*/
-        transition: max-height 1s ease-in; /*sert pour faire le depliant*/
-        overflow: hidden; /*sert pour faire le depliant*/
+    &__reponses{ /*Texte qui se deplie quand on passe la souris sur les questions*/
+        max-height: 0; /*Sert pour faire le depliant*/
+        transition: max-height 1s ease-in; /*Sert pour faire le depliant*/
+        overflow: hidden; /*Sert pour faire le depliant*/
         color: vars.$faq_police_color;
         border: solid;
         border-width: vars.$faq_border;
@@ -86,12 +86,14 @@
     }
 }
 
-.faq__boite:hover .faq__reponses{ /*sert pour faire le depliant*/
+.faq__boite:hover .faq__reponses{ /*Sert pour faire le depliant*/
     max-height: 500px;
     transition: max-height 1s ease-in;
 }
 
-.faq, .faq__questions, .faq__span{ /*met un ecart entre la question et le logo en forme de croix*/
+.faq, 
+.faq__questions, 
+.faq__span{ /*Met un ecart entre la question et le logo en forme de croix*/
 
     display: flex;
     justify-content: space-between;

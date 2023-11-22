@@ -83,6 +83,7 @@ p {
 header {
   background-image: url("FR-fr-20231106-popsignuptwoweeks-perspective_alpha_website_small.d083fb5b.jpg");
   height: 700px;
+  margin-bottom: 2rem;
 }
 
 .nav, .nav__titre, .nav__langue1, .nav__langue__bouton1 {
@@ -378,10 +379,6 @@ input::placeholder {
   transform: translate(-135%, 130%);
 }
 
-.tv {
-  margin-top: 5rem;
-}
-
 .tv, .support, .profils, .telecharger {
   border-bottom: 5px solid #363636;
 }
@@ -447,9 +444,9 @@ input::placeholder {
   width: 95%;
   margin: auto;
   position: absolute;
-  bottom: 135px;
+  bottom: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 220%);
 }
 
 @media screen and (width < 1280px) {
