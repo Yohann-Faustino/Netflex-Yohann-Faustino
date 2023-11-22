@@ -43,3 +43,30 @@
     margin-left: 325px;
 }
 
+@media all and (max-width: 960px) { /* a 1280px et plus la modif suivante seffectuera*/
+
+    .footer__block { /* on vise ces classes pour effectuer un changement */
+        
+        margin: 0%;
+        display: flex;
+        flex-wrap: wrap; /*On demande a passer sur deux colonnes au lieu de quatre*/
+        width: 100%;
+        height: 450px;
+
+    }
+
+    .footer__titre{ /*on retire les margin et padding suivants*/
+
+        padding: 0%;
+    }
+    
+    .footer__p{
+
+        padding: 0%;
+    }
+
+    .footer__langue__choix{
+
+        margin: 0%;
+    }
+}

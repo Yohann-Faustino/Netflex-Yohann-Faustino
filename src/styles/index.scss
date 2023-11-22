@@ -4,11 +4,7 @@
 @use './utils/vars';
 
 @use '../layout/global';
-@use '../layout/navigation';
-@use '../layout/section_tv';
-@use '../layout/section_support';
-@use '../layout/section_profils';
-@use '../layout/section_telecharger';
+@use '../layout/header';
 @use '../layout/section_faq';
 @use '../layout/footer';
 @use '../layout/sections_container';

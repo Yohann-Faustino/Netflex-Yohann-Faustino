@@ -173,86 +173,6 @@ input::placeholder {
   display: flex;
 }
 
-.tv {
-  border-bottom: 5px solid #363636;
-  margin-top: 5rem;
-}
-
-.tv__img {
-  width: 80%;
-}
-
-.tv__text {
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
-}
-
-.tv__titre {
-  margin-bottom: 2rem;
-  font-size: xxx-large;
-  font-weight: bold;
-}
-
-.support {
-  border-bottom: 5px solid #363636;
-}
-
-.support__titre {
-  margin-bottom: 1.5rem;
-  font-size: xxx-large;
-  font-weight: bold;
-}
-
-.support__text {
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  display: flex;
-}
-
-.support__p {
-  width: 60%;
-}
-
-.profils {
-  border-bottom: 5px solid #363636;
-}
-
-.profils__text {
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
-}
-
-.profils__titre {
-  width: 80%;
-  margin-bottom: 2rem;
-  font-size: xxx-large;
-  font-weight: bold;
-}
-
-.profils__p {
-  width: 80%;
-  line-height: 30px;
-}
-
-.telecharger {
-  border-bottom: 5px solid #363636;
-}
-
-.telecharger__text {
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
-}
-
-.telecharger__titre {
-  margin-bottom: 2rem;
-  font-size: xxx-large;
-  font-weight: bold;
-}
-
 .faq {
   border-bottom: 5px solid #363636;
   flex-direction: column;
@@ -323,7 +243,6 @@ input::placeholder {
 }
 
 .faq__reponses p {
-  color: red;
   padding: 10px;
 }
 
@@ -372,6 +291,24 @@ input::placeholder {
   margin-bottom: 2rem;
   margin-left: 325px;
   padding: 5px 10px;
+}
+
+@media (width <= 960px) {
+  .footer__block {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 450px;
+    margin: 0%;
+    display: flex;
+  }
+
+  .footer__titre, .footer__p {
+    padding: 0%;
+  }
+
+  .footer__langue__choix {
+    margin: 0%;
+  }
 }
 
 .tv__animation {
@@ -439,6 +376,35 @@ input::placeholder {
   top: 50%;
   left: 50%;
   transform: translate(-135%, 130%);
+}
+
+.tv {
+  margin-top: 5rem;
+}
+
+.tv, .support, .profils, .telecharger {
+  border-bottom: 5px solid #363636;
+}
+
+.tv__titre, .support__titre, .profils__titre, .telecharger__titre {
+  margin-bottom: 2rem;
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+.tv__text, .support__text, .profils__text, .telecharger__text {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.tv__p, .support__p, .profils__p, .telecharger__p {
+  width: 60%;
+  line-height: 30px;
+}
+
+.tv__img, .support__img, .profils__img, .telecharger__img {
+  width: 80%;
 }
 
 .banniere {
