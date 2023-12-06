@@ -78,6 +78,10 @@ p {
     width: 100%;
     display: flex;
   }
+
+  .img-content-container .intro__titre, .img-content-container.reverse .intro__titre, html .intro__titre {
+    font-size: 30px;
+  }
 }
 
 header {
@@ -88,12 +92,10 @@ header {
 
 .nav, .nav__titre, .nav__langue1, .nav__langue__bouton1 {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: .5rem;
+  padding-bottom: 2rem;
   display: flex;
-}
-
-.nav {
-  padding: 1rem 23rem 10rem;
 }
 
 .nav__identifier {
@@ -123,7 +125,7 @@ header {
 }
 
 .nav__titre {
-  width: 20%;
+  width: 200px;
 }
 
 .intro {
@@ -439,6 +441,7 @@ input::placeholder {
 }
 
 .degrade {
+  z-index: 5;
   background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #f90 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
   justify-content: center;
   width: 95%;

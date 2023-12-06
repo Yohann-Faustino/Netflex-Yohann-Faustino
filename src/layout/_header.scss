@@ -11,15 +11,12 @@ header{
 .nav__langue__bouton1{ /*On aligne le logo avec les boutons langue et connexion*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
 }
 
-.nav{
-
-    padding-top: 1rem;
-    padding-left: 23rem;
-    padding-right: 23rem;
-    padding-bottom: 10rem;
+.nav{    
 
     &__identifier{ /*Bouton connexion*/
         background-color: vars.$bouton_couleur_bg;
@@ -47,7 +44,7 @@ header{
         padding-right: 25px;    
     }
     &__titre{
-        width: 20%; /*La taille du logo influance egalement la taille des boutons choix de langue et connexion*/
+        width: 200px; /*Taille du logo*/
     }
 }
 

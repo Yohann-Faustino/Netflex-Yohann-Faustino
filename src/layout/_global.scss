@@ -50,5 +50,10 @@ p{
     display: flex;
     flex-direction: column; /* On souhaite que ces classes se mettent en colonne*/
     width: 100%; /* On souhaite que ces classes prennent 100% de la taille de leurs balises parents*/
+    
+    .intro__titre{
+        font-size: 30px;
     }
+}
+
 }
