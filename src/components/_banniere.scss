@@ -49,7 +49,7 @@ section {
     position: absolute; /*Position qui permet de sortir la banniere de sa place*/
     bottom: 50%; /*Positionne la banniere au centre de son referent grace a ces deux valeurs*/
     left: 50%;
-    transform: translate(-50%, 220%); //deplace la banniere apres l'avoir fixer precedement pour qu'elle reste immobile en responsive*/
+    transform: translate(-50%, 180%); //deplace la banniere apres l'avoir fixer precedement pour qu'elle reste immobile en responsive*/
     z-index: 5;
 
     @media screen and (width < 1280px) {
